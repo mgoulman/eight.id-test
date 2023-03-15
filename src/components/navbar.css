@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+    @apply flex justify-between items-center
+}
+
+.navbar-logo {
+    @apply bg-transparent 
+}
+
+.navbar-logo img {
+    @apply w-44 h-10
+}
+
+.navbar-links_container {
+    @apply flex flex-row
+
+}
+
+.navbar-links_container p {
+    @apply text-blue-50 mr-10
+}
+
+.navbar-contact_us {
+    @apply flex justify-center items-center border-2 border-solid border-gray-100 w-44 h-12 py-3 text-blue-50 text-base
+}
+
+.navbar-menu {
+    @apply non relative ml-8
+}
+
+.navbar-menu svg {
+    @apply cursor-pointer
+}
+
+.navbar-menu-container {
+    @apply flex justify-end items-end flex-col absolute text-end p-16 right-0 top-[40px] mt-4 min-w-[201px] rounded-md shadow-sm border-2 border-amber-600 border-solid
+}
+
+.navbar-menu-container p {
+    @apply mx-4 my-0 text-blue-50
+}
+
+.navbar-menu-links_container {
+    @apply non
+}
+
+/* @media screen and (max-width: 1050px) {
+    .navbar-links_container {
+        @apply non
+    }
+
+    .navbar-contact_us {
+        @apply hidden
+    }
+
+    .navbar-menu {
+        @apply flex
+    }
+} */
+

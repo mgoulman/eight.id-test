@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer {
+    @apply flex flex-col justify-center items-center w-11/12 mt-32 bg-darkGray
+}
+
+.footer-nav {
+    @apply w-[95%] flex justify-between items-center p-16
+}
+
+.footer-links_logo {
+    @apply bg-transparent
+}
+
+.footer-links_logo img {
+    @apply w-20 h-5
+}
+
+.footer-links {
+    @apply flex justify-between items-center
+
+}
+
+.footer-links p {
+    @apply text-blue-50 mr-16 text-sm
+}
+
+.footer-social-media {
+    @apply flex justify-around items-center text-yellow-500
+}
+
+.footer-social-media div {
+    @apply p-[0.5rem]
+}
+
+.footer-copy-right {
+    @apply flex justify-between items-center
+}
+
+.footer-copy-right h6 {
+    @apply text-blue-50 px-4 pb-10 text-[10px]
+}
